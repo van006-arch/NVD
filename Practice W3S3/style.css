@@ -1,0 +1,49 @@
+body {
+    background: #777;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 100px auto;
+    width: 70%;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.radius30 {
+    border-radius: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 14px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.green {
+    background: #0b8d76
+}
+
+.orange {
+    background: #e7a308;
+}
+
+.purple {
+    background: #6a0572;
+}

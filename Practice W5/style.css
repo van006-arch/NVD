@@ -1,0 +1,59 @@
+.container {
+    width: 320px;
+    height: 520px;
+    background-color: aliceblue;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.caption {
+    background: beige;
+}
+
+.content {
+    background-color: coral;
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: darkseagreen;
+}
+
+.profile {
+    padding: 4px;
+    background: floralwhite;
+}
+
+.info {
+    flex-grow: 1;
+    background-color: gainsboro;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    border-radius: 95px;
+}
+
+.action-btns {
+    display: flex;
+    gap: 4px;
+    justify-content: space-evenly;
+    background-color: honeydew;
+}
+
+.action-btn {
+    background-color: indianred;
+    display: flex;
+    gap: 4 px; 
+    align-items: center;
+}
