@@ -1,0 +1,77 @@
+body {
+    background: #eef1f5;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    width: 350px;
+    background: white;
+    padding: 30px;
+    margin: 60px auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0.12);
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+.title {
+    color: #777;
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.stats {
+    display: flex;
+    justify-content: spacee-between;
+    margin: 25px 0;
+    padding: 0 25px;
+}
+
+.label {
+    color: #999;
+    font-size: 13px;
+}
+
+.number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+.socails span {
+    font-size: 20px;
+    margin: 0 8px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.socials span:hover {
+    opacity: 1;
+}
+
+.btn {
+    width: 70%;
+    padding: 12px 0;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #e6e6e6;
+}

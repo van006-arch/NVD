@@ -1,0 +1,59 @@
+body {
+    background: #bdc3c7;
+}
+
+h1 {
+    color: #9b59b6;
+}
+
+h2 {
+    background: orange;
+}
+
+li {
+    color: #2980b9;
+}
+
+p {
+    background: yellow;
+}
+
+input {
+    border: 3px solid red;
+}
+
+.hello {
+    background: white;
+}
+
+#special {
+    border: 2px solid rgb(0, 0, 255);
+}
+
+
+div p {
+    font-size: 25px;
+}
+
+input[type="text"] {
+    background: lightgray;
+}
+
+input[type="checkbox"] {
+    marign-left: 50px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+}
+
+h1:hover {
+    color: blue;
+}
+
+
